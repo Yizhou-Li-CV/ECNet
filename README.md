@@ -61,8 +61,11 @@ for quick practice.
 if using other datasets, please change the file organization as this.
 
 2.Convert the training images into small patches, where generated image patches are located 
-at "./data/SPA-Data_6385_patch/train/rgb_reconstruction/rain/rain-\*.png" and 
-"./data/SPA-Data_6385_patch/train/rgb_reconstruction/norain/norain-\*.png"
+at 
+
+ "./data/SPA-Data_6385_patch/train/rgb_reconstruction/rain/rain-\*.png"
+
+ "./data/SPA-Data_6385_patch/train/rgb_reconstruction/norain/norain-\*.png"
 
 ```
 $ cd ./data
