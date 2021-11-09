@@ -50,9 +50,9 @@ for quick practice.
 
 ## Training
 
-*taking training 1% SPA-Data (6385 training pairs) as an example*:
+*taking training on 1% SPA-Data (6385 training pairs) as an example*:
 
-1.Download SPA-Data  (including training set) from the [[GoogleDrive]](https://drive.google.com/file/d/1qDlnJvbiu9wHDU_cdekD406TcEUB7SZ2/view?usp=sharing) and unzip to ./data.The unzipped file is like:
+1.Download our selected 1% SPA-Data  (including training set) from the [[GoogleDrive]](https://drive.google.com/file/d/1qDlnJvbiu9wHDU_cdekD406TcEUB7SZ2/view?usp=sharing) and unzip to ./data.The unzipped file is like:
 
  "./data/SPA-Data_6385/train/rgb_reconstruction/rain/rain-\*.png"
 
