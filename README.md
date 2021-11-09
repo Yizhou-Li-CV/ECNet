@@ -39,7 +39,7 @@ which are named as *rain_data_[train/test]_[Light/Heavy].gz*,
 
 Rain800 set can be downloaded from the [[GoogleDrive]](https://drive.google.com/drive/folders/0Bw2e6Q0nQQvGbi1xV1Yxd09rY2s?resourcekey=0-dUoT9AJl1q6fXow9t5TcRQ) 
 (link is from https://github.com/hezhangsprinter/ID-CGAN), 
-or download out selected set with 98 test pairs [[GoogleDrive]](https://drive.google.com/file/d/1G3FqFvKIJiDvoXx4pbTc0A_Ti1X99URz/view?usp=sharing)
+or download our selected set with 98 test pairs [[GoogleDrive]](https://drive.google.com/file/d/1G3FqFvKIJiDvoXx4pbTc0A_Ti1X99URz/view?usp=sharing)
 
 SPA-Data set can be downloaded from the [[NetDisk]](https://mycuhk-my.sharepoint.com/personal/1155152065_link_cuhk_edu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F1155152065%5Flink%5Fcuhk%5Fedu%5Fhk%2FDocuments%2Fdataset%2Freal%5Fworld%5Frain%5Fdataset%5FCVPR19) 
 (link is from https://stevewongv.github.io/#pub).
