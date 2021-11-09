@@ -80,7 +80,7 @@ $ python train.py --dataroot ./data/SPA-Data_6385_patch --name <autoencoder_path
 ```
 The tensorboard logs can be found at ./logs/, while trained models can be found at ./checkpoints/<autoencoder_path>/
 
-3.Begining training ECNet or ECNet+LL (by changing --netG to ECNet/ECNetLL):
+4.Begining training ECNet or ECNet+LL (by changing --netG to ECNet/ECNetLL):
 ```
 $ tensorboard --logdir logs/tensorboard/image_deraining
 $ python train.py --dataroot ./data/SPA-Data_6385_patch --name <ecnet_path> --netG ECNetLL --model ecnet_train_test --autoencoder_checkpoint <autoencoder_path> --dataset_mode rain100h --preprocess none --n_epochs 100 --lr_policy multistep --gradient_clipping 5
