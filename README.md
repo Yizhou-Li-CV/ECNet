@@ -1,5 +1,5 @@
 ## [Single Image Deraining Network with Rain Embedding Consistency and Layered LSTM, WACV2022](https://arxiv.org/abs/2111.03615)
-### Introduction
+## Introduction
 Single image deraining is typically addressed as residual learning to predict the rain layer from an input rainy image. 
 For this purpose, an encoder-decoder network draws wide attention, where the encoder is required to encode a high-quality 
 rain embedding which determines the performance of the subsequent decoding stage to reconstruct the rain layer. 
