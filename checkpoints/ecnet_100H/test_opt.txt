@@ -1,0 +1,43 @@
+----------------- Options ---------------
+             aspect_ratio: 1.0                           
+   autoencoder_checkpoint: autoencoder_spadata_full      
+               batch_size: 16                            
+          checkpoints_dir: ./checkpoints                 
+              crop_size_h: 96                            
+              crop_size_w: 96                            
+                 dataroot: /content/data/rain100H        	[default: None]
+             dataset_mode: rain100h                      
+                    epoch: latest                        
+                  gpu_ids: 0                             
+        gradient_clipping: -1                            
+                init_gain: 0.02                          
+                init_type: normal                        
+                  isTrain: False                         	[default: None]
+                    iters: 6                             
+          lcn_window_size: 9                             
+                    leaky: False                         
+                load_iter: 0                             	[default: 0]
+                load_size: None                          
+           mask_threshold: 0.001                         
+         max_dataset_size: inf                           
+                    model: ecnet                         	[default: test]
+                     name: ecnet_100H                    	[default: experiment_name]
+                nb_filter: 32                            
+                     netG: ECNetLL                       	[default: rganet]
+                  no_flip: False                         
+                     norm: batch                         
+                 not_init: False                         
+                    ntest: inf                           
+                 num_test: 100                           	[default: 2000]
+              num_threads: 4                             
+             only_metrics: False                         
+                    phase: test                          
+                     pool: max                           
+               preprocess: none                          
+              results_dir: ./results/                    
+           serial_batches: False                         
+                   suffix:                               
+                   target: image_deraining               
+                  verbose: False                         
+            vertical_flip: False                         
+----------------- End -------------------
