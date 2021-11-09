@@ -58,7 +58,7 @@ for quick practice.
 
  "./data/SPA-Data_6385/train/rgb_reconstruction/norain/norain-\*.png"
 
-if using other datasets, please change the file organization as this.
+Note that if using other datasets, please change the file organization as this.
 
 2.Convert the training images into small patches, where generated image patches are located 
 at 
