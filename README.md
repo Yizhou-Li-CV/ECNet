@@ -109,7 +109,7 @@ $ python test.py --dataroot ./data/spadata --num_test 1000 --name <ecnet_path> -
 The PSNR, SSIM and average inference time will be printed, and derained results are saved in the folder "./results/<ecnet_path>/test_latest/images/".
 
 ## Pretrained Model
-We place the pretrained model of all the used datasets in the ./checkpoints/.
+We place the pretrained models of all the used datasets in the ./checkpoints/.
 To use the pretrained model for evaluation, please use the command below for SPA-Data with model trained on full training data:
 
 ```
