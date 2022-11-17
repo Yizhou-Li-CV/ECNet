@@ -26,7 +26,7 @@ class BaseOptions():
         parser.add_argument('--checkpoints_dir', type=str, default='./checkpoints', help='models are saved here')
         parser.add_argument('--autoencoder_checkpoint', type=str, default='autoencoder_spadata_full', help='the checkpoint folder name for autoencoder')
         # model parameters
-        parser.add_argument('--model', type=str, default='derainlcn', help='chooses which model to use. [derainlcn]')
+        parser.add_argument('--model', type=str, required=True, help='chooses which model to use. [autoencoder_train, ecnet_train_test]')
         parser.add_argument('--netG', type=str, default='ECNet', help='specify network architecture [ECNet, ECNetLL, Autoencoder]')
         parser.add_argument('--norm', type=str, default='batch', help='instance normalization or batch normalization [instance | batch | none]')
         parser.add_argument('--pool', type=str, default='max', help='the pool type of model [max | avg | conv]')
